@@ -1,0 +1,62 @@
+@import "../../assests/styles/globalStyle.scss";
+$sliderHeight: 80%;
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+    width: 100%;
+}
+
+.ShowGames {
+    padding-top: 5%;
+    
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.gamesContainer {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.gamesSlider {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: $sliderHeight;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 30vh;
+    right: 0;
+    width: fit-content;
+    font-size: 7rem;
+    color: #fff;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    transform: scale(4);
+}
+
+.left-arrow {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+
+    font-size: 7rem;
+    color: #fff;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    transform: scale(4);
+
+}

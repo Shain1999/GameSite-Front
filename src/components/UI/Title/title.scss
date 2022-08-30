@@ -1,0 +1,29 @@
+@import "../../../assests/styles/globalStyle.scss";
+
+.title {
+
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem $lighterGreen;
+    background-color: $boldGrey;
+    padding: 1rem 2rem;
+    
+    & h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: $lighterGreen;
+        padding: 0 0.5rem;
+    }
+}
+.title::after{
+    content: "";
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: $lighterGreen;
+    border-radius: 100%;
+}

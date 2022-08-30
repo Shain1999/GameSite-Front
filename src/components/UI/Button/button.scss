@@ -1,0 +1,62 @@
+@import "../../../assests/styles/globalStyle.scss";
+
+.submitBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:60%;
+    height: 60%;
+    margin: 20%;
+    border: none;
+    color: $lighterGreen;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    background: linear-gradient(#333933, #222922);
+    border-color: $lighterGreen;
+    outline: none;
+    transition: color 300ms ease, font-weight 250ms ease, font-size 300ms ease,
+      box-shadow 200ms ease,border-color 200ms ease;
+    &:hover{
+        color: aliceblue;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 1.2rem;
+        box-shadow: 0 0 1em $boldGreen;    }
+    cursor: pointer;
+    &.selected {
+    animation: glow 800ms ease-out infinite alternate;
+        color: white;
+        font-weight: bold;
+        background-color: black;
+        border: 2px solid $lighterGreen;
+    }
+}
+
+
+.discoverBtnDiv{
+  border: 2px solid transparent;
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+  height: fit-content;
+  background: $backGroundColor;
+  transition: all 300ms ease;
+  max-width: 400px;
+  aspect-ratio: 1/1;
+  &:hover{
+    box-shadow: 0 0 1em $lighterGreen;
+    border: 2px solid $lighterGreen;
+  }
+  &.selected {
+    animation: glow 800ms ease-out infinite alternate;
+        color: white;
+        font-weight: bold;
+        background-color: black;
+        border: 2px solid $lighterGreen;
+    }
+}
+.discoverBtnDiv:hover{
+    transform: scale(1.1, 1.1);
+
+}

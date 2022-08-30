@@ -1,0 +1,30 @@
+@import "../../../assests/styles/globalStyle.scss";
+
+.desc {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10rem;
+    border: 2px solid $lighterGreen;
+    overflow: hidden;
+}
+
+.desc img {
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-position: top;
+
+}
+
+.descData {
+    padding: 2rem 1rem;
+    position: relative;
+
+    & {
+        color: white;
+    }
+}

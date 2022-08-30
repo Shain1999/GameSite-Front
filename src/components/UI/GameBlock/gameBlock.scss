@@ -1,0 +1,58 @@
+@import "../../../assests/styles/globalStyle.scss";
+
+.gameBlock {
+    font-family: "Cabin", sans-serif;
+
+    width: 90%;
+    margin: 1.3rem auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid $lightGreen;
+    border-radius: 5px;
+    max-height: 250px;
+}
+
+.gameBlockLabel {
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin: auto 0;
+    padding-bottom: 0.2rem;
+    font-weight: bold;
+    text-align: left;
+    align-items: center;
+    width: 10%;
+    opacity: 1;
+
+}
+
+.gameBlockValue {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+
+}
+
+.gameBlockValueLabel {
+    width: 90%;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    // color:transparent;
+    color: #eae6fc;
+    font-size: 1.2rem;
+    opacity: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 1rem $lighterGreen;
+    overflow: auto;
+    max-height: 7rem;
+
+    &.name {
+        overflow: hidden;
+        font-size: 1.8rem;
+    }
+    &.link{
+       cursor: pointer; 
+    }
+}

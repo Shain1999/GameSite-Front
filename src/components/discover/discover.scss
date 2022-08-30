@@ -1,0 +1,25 @@
+@import "../../assests/styles/globalStyle.scss";
+
+.grid {
+    padding: 4rem;
+    box-shadow: 0 0 1em $boldGrey;
+    background: $boldGrey;
+    border-radius: 10px;
+    margin: 4% auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 5em;
+}
+
+.sendBtn {
+    width: fit-content;
+    margin: 3% auto;
+}
+
+.discover {
+    margin-top: 3rem;
+    padding-bottom: 15rem;
+    background-color: $backGroundColor;
+}
+

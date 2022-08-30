@@ -1,0 +1,22 @@
+@import "../../assests/styles/globalStyle.scss";
+.logInContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    box-shadow: 0 0 0.5rem $lighterGreen;
+    padding: 4rem 2rem 2rem 2rem;
+    border-radius: 25px;
+    background: $mainBlack;
+    margin: 0 auto;
+    position: relative;
+    :nth-child(2){
+        margin-top: 4rem;
+    }
+   
+}
+.tempLogIn{
+    margin-top: 5%;
+    padding-bottom: 20rem;
+}

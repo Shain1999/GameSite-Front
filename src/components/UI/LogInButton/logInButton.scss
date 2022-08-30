@@ -1,0 +1,19 @@
+@import "../../../assests/styles/globalStyle.scss";
+.logInBtn{
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    background: $lightGreen;
+    cursor: pointer;
+    color: whitesmoke;
+    margin-bottom: 1rem ;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all 200ms ease;
+    &:hover{
+        box-shadow: 0 0 0.5rem $boldGreen;
+        border-color: $lighterGreen;
+        transform: scale(1.1);
+    }
+  
+}
